@@ -1,0 +1,417 @@
+/*
+CSS for login
+*/
+
+/*
+@import url("dijit/Button.css");
+@import url("dijit/DropDownSelect.css");
+*/
+
+body {
+        font-family: Tahoma, sans-serif;
+    font-size:12px;
+        background:url(../images/bg-body.jpg) top center no-repeat;
+
+}
+.clearfix{
+        clear:both;
+
+}
+
+.dj_ie body {
+	/* We have to overwrite the font attribute from dojo as well, or we run
+	into problems on IE */
+	font: 12px Tahoma, sans-serif;
+}
+
+.Convergence-Login {
+	position:absolute;
+	left:50%;
+	top:50%;
+	width:430px;
+	margin-top:-125px;
+	margin-left:-220px;
+	border-top: 2px solid #EDEDED;
+	border-left: 1px solid #EEEEEE;
+	border-bottom: 1px solid #8F8F8F;
+	border-right: 1px solid #B9B9B9;
+}
+
+.Convergence-Login-Border {
+	width: 428px;
+	border-top: 1px solid #F8F8F8;
+	border-left: 1px solid #F9F9F9;
+	border-bottom: 1px solid #DADADA;
+	border-right: 1px solid #E9E9E9;
+}
+
+.Convergence-Login-Banner {
+	padding: 7px 0 0 10px;
+
+}
+
+.Convergence-Login-Logo {
+	background-color: transparent;
+	background-image: url(../images/smallOracleLogo.gif?3.0.0.1.0_14062908);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	width: 138px;
+	height: 18px;
+	padding: 0 0 10px 5px;
+	border-bottom: 2px solid #999;
+}
+
+
+.Convergence-Login-WelcomeMsg {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 15px 0 5px 0;
+}
+
+.Convergence-Login-Notification {
+	margin: 2px 10px;
+	background-color: transparent;
+	background-image: url(../images/info.png?3.0.0.1.0_14062908);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding: 1px 0 0 22px;
+	color: red;
+	font-size: 11px;
+	height: 26px;
+}
+.Convergence-Login .Password-Expired-Message .ErrorMsg-Contianer .Error-Msg {
+	margin: 2px 10px;	
+	color: red;
+	font-size: 13px;
+	margin: -13px 0px 0px;
+}
+
+.Convergence-Login-Form {
+    margin: 0 30px 0 0px;
+	float: right;
+	width: 398px;
+}
+
+.Convergence-Login-SelectLang {
+    margin: 0 0px 0 10px;
+	float: left;
+}
+
+.Convergence-Login-FormRow {
+    padding-bottom: 8px;
+	text-align: right;
+}
+
+.Convergence-Login-Form label {
+    padding-right: 4px;
+}
+
+.Convergence-Login input[type=text],
+.Convergence-Login input[type=password]{
+    width: 125px;
+}
+
+.dj_webkit .Convergence-Login input[type=text],
+.dj_webkit .Convergence-Login input[type=password]{
+    padding: 2px;
+}
+
+div.Convergence-Login-Buttons {
+	padding-bottom: 0px;
+}
+
+div.Convergence-Login-FormButton {
+	width: 129px;
+	float: right;
+}
+
+.ChangePwdBtn {
+	margin-top: 13px;
+	float: left !important;
+	width: 136px !important;	
+}
+
+.dj_webkit div.Convergence-Login-FormButton {
+	width: 133px;
+}
+
+.dj_ff36_mac div.Convergence-Login-FormButton {
+	width: 131px;
+}
+.dj_webkit div.Convergence-Login-FormButton .ChangePwdBtn{
+	width: 137px;
+}
+
+.dj_ff36_mac div.Convergence-Login-FormButton .ChangePwdBtn{
+	width: 135px;
+}
+
+div.Convergence-Login-FormButton div {
+	text-align: left;
+}
+
+.dijitButton, dijitDropDownButton {
+	margin: 0;
+}
+
+.Convergence-Login .dijitButtonText,
+.Convergence-Login .dojoxDropDownSelectLabel {
+	font-size: 12px;
+}
+
+.Convergence-Login .dojoxDropDownSelect .dijitButtonContents{
+	padding: 1px 0 2px 1px;
+}
+
+.dojoxDropDownSelectFixedWidth {
+    width: 125px;
+	margin: 0;
+}
+
+.dj_gecko .Convergence-Login-FormButton .dijitButtonNode {
+	padding: 0 0 1px 0;
+}
+
+.dj_ie .Convergence-Login-FormButton .dijitButtonNode {
+	padding: 0;
+}
+
+.dj_ie .Convergence-Login-FormButton .dijitButtonContents {
+	line-height: 12px;
+	height: 18px;
+}
+
+.dj_gecko .Convergence-Login-FormButton .ChangePwdBtn .dijitButtonNode {
+	padding: 0 0 1px 0;
+}
+
+.dj_ie .Convergence-Login-FormButton .ChangePwdBtn .dijitButtonNode {
+	padding: 0;
+}
+
+.dj_ie .Convergence-Login-FormButton .ChangePwdBtn .dijitButtonContents {
+	line-height: 12px;
+	height: 18px;
+}
+
+.Convergence-Login-RedBand {
+	margin: 3px 0 0 -1px;
+	background-image:url("../images/redband.png?3.0.0.1.0_14062908");
+	background-position: left top;
+	height: 30px;
+	width: 430px;
+}
+
+.Convergence-Login .Password-Expired-Message {	
+    width: 424px;
+    height: 89px;
+    background-color: #ffedcb;
+    border: 1px solid #fedfa5;	
+    margin-left: 1px;
+    margin-bottom: 1px;
+}
+
+.Convergence-Login .Password-Expired-Message .ErrorMsg-Contianer {
+    height: auto;    
+    margin-left: 7px;
+    margin-top: 22px;
+}
+.Convergence-Login .Password-Expired-Message .ErrorMsg-Contianer .Error-Icon {	
+    float: left;    
+    width: 35px;
+    height: 35px;
+    margin-right: 2px;
+    background-color: transparent;
+    background-image: url("../images/info-icon.png?3.0.0.1.0_14062908"); 
+    background-repeat: no-repeat;
+}
+
+.dj_ie .Convergence-Login .Password-Expired-Message .ErrorMsg-Contianer .Error-Icon {
+    margin-top: -8px;
+}
+.dj_webkit .Convergence-Login-RedBand {
+	width: 430px;
+}
+
+.Convergence-Login-Copyright {
+	font-size: 11px;
+	padding: 2px 10px 2px 8px;
+	text-align:center;
+}
+
+#spinner {
+    position: absolute;
+    padding-top: 30px;
+    background:#FFF url("../images/login-spinner.gif?3.0.0.1.0_14062908") no-repeat top left; /* NOT THEMED */
+    width: 100px;
+}
+
+#progress{
+    text-align: left;
+}
+
+/*new css start*/
+
+.login-form {
+	display:inline-block;
+	margin:0px;
+	padding:0px;
+	width:100%;
+}
+.login-form ul {
+	float:left;
+	padding:0;
+	position:relative;
+}
+.button-div {
+	float:right;
+	width:180px;
+	margin-left:20px;
+	background-color:#e6e6e6;
+	position:relative;
+}
+
+.login-form li {
+	float:left;
+	width:285px;
+	margin:6px 0 10px 0;
+	padding:0;
+	list-style:none;
+
+}
+.login-form li label {
+	margin-top:8px;
+	padding:0;
+	color:#000
+	font-size:12px;
+	float:left;
+}
+.login-form li input.txt {
+	width:170px;;
+	background:#ffffff;
+	border:solid 1px #d9d9d9;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	font-size:12px;
+	color:#000;
+	height:20px;
+	padding:5px;
+	line-height:16px;
+	float:right;
+	outline:0;
+	margin:0 10px 0 0px
+	font-family:Arial, Helvetica, sans-serif;
+
+}
+.login-form li input.txt:focus {
+	border:solid 1px #ea1929;
+	outline: 0;
+}
+.btn-submit {
+	float:right;
+	background:#ea1929;
+	color:#ffffff;
+	padding:5px 20px;
+	border:0;
+	margin:2px 0 0 0;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.btn-submit:hover {
+	background:#999;
+}
+ */.login-form li label.error {
+ font-size:10px;
+ color:#F00;
+ margin-left:25%;
+ position:absolute;
+ left:15%;
+ bottom:-13px;
+}
+.login-form li input.error {
+	border:solid 1px #ea1929;
+}
+#mainContainer{
+	width:997px;
+	margin:auto;
+}
+#menu{
+	clear:both;
+	float:left;
+	height:100px;
+	margin:0 0 100px;
+	padding-right:0px;
+	width:99.8%;
+}
+#content{
+	float:left;
+	margin:auto;
+	padding:0 0 180px;
+/*	widows:100%;*/
+}
+.middlecontent{
+	margin:0 0 0 311px;
+	padding:0 0 0 25px;
+	width:650px;
+}
+.welcome_head{
+	margin:auto;
+	padding-left:300px;
+
+}
+.welcome_head h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	padding:5px 20px 5px 23px;
+	color:#ed1c24;
+	font-weight:bold;
+	margin:4px 0px 43px 50px;
+
+}
+/* new styles for login page */
+
+.login-wrapper {
+        width:997px;
+        margin:30px auto 0px auto;
+        font-family:Arial, Helvetica, sans-serif;
+}
+
+.login-wrapper .head-title {
+        font-size: 22px;
+        font-weight: bold;
+        width:218px;
+        background-color:#e6e6e6;
+        padding:9px;
+        float:left;
+        margin-top:13px;
+}
+.login-wrapper .logo {
+        float:right;
+        margin: 0 0 0 2px;
+}
+.login-wrapper .login-welcome {
+        text-align:center;
+        font-size:16px;
+        color:#ed1c24;
+        font-weight:bold;
+        padding-top:112px;
+}
+
+.login-wrapper .login-form-wrapper {
+        text-align:center;
+        width:283px;
+        margin:0px auto;
+        position:relative;
+        top:10px;
+}
+
+.login-wrapper .copyright {
+        font-size: 11px;
+        padding: 2px 10px 2px 8px;
+        text-align:center;
+        margin-top:205px;
+}
+
